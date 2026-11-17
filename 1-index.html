@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Caio Melo Escatolin — Desenvolvedor de Software</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cabinet+Grotesk:wght@400;500;700;800;900&family=Instrument+Sans:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="cursor"></div>
+<div id="cursor-ring"></div>
+<div id="progress-bar"></div>
+
+<!-- NAV -->
+<nav>
+  <a href="#" class="nav-logo">
+    Caio Melo Escatolin
+    <span class="dot"></span>
+  </a>
+  <button class="nav-toggle" id="navToggle" aria-label="Abrir menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#sobre">Sobre</a></li>
+    <li><a href="#objetivos">Objetivos</a></li>
+    <li><a href="#projetos">Projetos</a></li>
+    <li><a href="#competencias">Competências</a></li>
+    <li><a href="#formacao">Formação</a></li>
+    <li><a href="#contato" class="nav-cta">Contato</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="orb orb1"></div>
+  <div class="orb orb2"></div>
+  <div class="hero-bg-text">CE</div>
+
+  <div class="hero-inner">
+    <div class="hero-eyebrow">
+      <span class="eyebrow-line"></span>
+      São Paulo · SP · Disponível
+    </div>
+
+    <h1>
+      Futuro dev.<br>
+      <em id="typeTarget" class="typewriter"></em>
+    </h1>
+
+    <p class="hero-desc">
+      Sou o Caio Melo Escatolin — estudante de Tecnologia da Informação no Senac/SP,
+      com conhecimentos práticos em JavaScript, Node.js, APIs e bancos de dados,
+      buscando minha primeira oportunidade na área de desenvolvimento de software.
+    </p>
+
+    <div class="hero-chips">
+      <span class="chip">JavaScript & Node.js</span>
+      <span class="chip">APIs & Banco de Dados</span>
+      <span class="chip">Técnico em Informática — Senac</span>
+      <span class="chip">Futuro Eng. de Software — FIAP</span>
+      <span class="chip">Inglês Fluente</span>
+    </div>
+
+    <div class="hero-actions">
+      <a href="#sobre" class="btn-primary">
+        Conheça minha trajetória
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </a>
+      <a href="#contato" class="btn-ghost">Entrar em contato →</a>
+    </div>
+  </div>
+</section>
+
+<!-- TICKER -->
+<div class="ticker-wrap">
+  <div class="ticker">
+    <span class="ticker-item">JavaScript <span class="ticker-sep">◆</span></span>
+    <span class="ticker-item">Node.js <span class="ticker-sep">◆</span></span>
+    <span class="ticker-item">APIs <span class="ticker-sep">◆</span></span>
+    <span class="ticker-item">Banco de Dados <span class="ticker-sep">◆</span></span>
+    <span class="ticker-item">Git & GitHub <span class="ticker-sep">◆</span></span>
+    <span class="ticker-item">Inteligência Artificial <span class="ticker-sep">◆</span></span>
+    <span class="ticker-item">Acessibilidade <span class="ticker-sep">◆</span></span>
+    <span class="ticker-item">Senac / FIAP <span class="ticker-sep">◆</span></span>
+    <!-- duplicate for loop -->
+    <span class="ticker-item">JavaScript <span class="ticker-sep">◆</span></span>
+    <span class="ticker-item">Node.js <span class="ticker-sep">◆</span></span>
+    <span class="ticker-item">APIs <span class="ticker-sep">◆</span></span>
+    <span class="ticker-item">Banco de Dados <span class="ticker-sep">◆</span></span>
+    <span class="ticker-item">Git & GitHub <span class="ticker-sep">◆</span></span>
+    <span class="ticker-item">Inteligência Artificial <span class="ticker-sep">◆</span></span>
+    <span class="ticker-item">Acessibilidade <span class="ticker-sep">◆</span></span>
+    <span class="ticker-item">Senac / FIAP <span class="ticker-sep">◆</span></span>
+  </div>
+</div>
+
+<!-- SOBRE -->
+<section id="sobre">
+  <div class="sobre-layout">
+    <div class="fade-up">
+      <div class="sobre-card">
+        <div class="sobre-card-header">
+          <div class="avatar-ring">CE</div>
+          <div class="sobre-card-name">Caio Melo Escatolin</div>
+          <div class="sobre-card-role">· Dev ·</div>
+        </div>
+        <div class="sobre-card-body">
+          <div class="info-row">
+            <span class="info-label">Cidade</span>
+            <span class="info-val">São Paulo</span>
+          </div>
+          <div class="info-row">
+            <span class="info-label">Escola</span>
+            <span class="info-val">Senac/SP – Aclimação</span>
+          </div>
+          <div class="info-row">
+            <span class="info-label">Conclusão do técnico</span>
+            <span class="info-val">Dez / 2026</span>
+          </div>
+          <div class="info-row">
+            <span class="info-label">Próximo passo</span>
+            <span class="info-val">Eng. Software — FIAP</span>
+          </div>
+          <div class="info-row">
+            <span class="info-label">Idiomas</span>
+            <span class="info-val">PT-BR / EN fluente</span>
+          </div>
+          <div class="info-row">
+            <span class="info-label">WhatsApp</span>
+            <span class="info-val">11 97564-2714</span>
+          </div>
+          <div class="info-row">
+            <span class="info-label">E-mail</span>
+            <span class="info-val">cmescatolin@gmail.com</span>
+          </div>
+          <div class="info-row">
+            <span class="info-label">GitHub</span>
+            <span class="info-val">@CaioEscatolin</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="fade-up">
+      <span class="label">Quem sou</span>
+      <h2 class="h2">Construindo o futuro,<br>um commit de cada vez.</h2>
+      <p class="sub" style="margin-bottom:2rem">
+        Sou estudante de Tecnologia da Informação, atualmente no 3º ano do Ensino Médio
+        e concluindo o curso Técnico em Informática Integrado ao Ensino Médio pelo
+        <strong style="color:var(--text)">Senac São Paulo — Aclimação</strong>, com conclusão prevista para dezembro de 2026.
+      </p>
+      <p class="sub" style="margin-bottom:2rem">
+        Tenho conhecimentos práticos em HTML, CSS, JavaScript, Node.js, APIs, Git/GitHub
+        e bancos de dados, além de formação complementar em desenvolvimento web e
+        Inteligência Artificial. Busco constantemente aprofundar meus conhecimentos por meio de
+        projetos e novos desafios.
+      </p>
+      <p class="sub" style="margin-bottom:2.5rem">
+        Considero como alguns dos meus principais diferenciais a facilidade de aprendizado,
+        comunicação, trabalho em equipe e, principalmente, a capacidade de identificar
+        problemas e criar soluções do zero. A partir de <strong style="color:var(--text)">janeiro de 2027</strong>,
+        inicio a graduação em <strong style="color:var(--text)">Engenharia de Software na FIAP</strong>.
+      </p>
+
+      <div class="skills-block" id="skillsBlock">
+        <p style="font-size:0.78rem;color:var(--muted);text-transform:uppercase;letter-spacing:0.1em;margin-bottom:1.2rem;font-weight:500;">Habilidades em desenvolvimento</p>
+        <div class="skill-bar-wrap">
+          <div class="skill-bar-header"><strong>HTML / CSS</strong></div>
+          <div class="skill-track"><div class="skill-fill" data-target="85"></div></div>
+        </div>
+        <div class="skill-bar-wrap">
+          <div class="skill-bar-header"><strong>JavaScript</strong></div>
+          <div class="skill-track"><div class="skill-fill" data-target="75"></div></div>
+        </div>
+        <div class="skill-bar-wrap">
+          <div class="skill-bar-header"><strong>Node.js / APIs</strong></div>
+          <div class="skill-track"><div class="skill-fill" data-target="65"></div></div>
+        </div>
+        <div class="skill-bar-wrap">
+          <div class="skill-bar-header"><strong>Git / GitHub</strong></div>
+          <div class="skill-track"><div class="skill-fill" data-target="70"></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- OBJETIVOS -->
+<section>
+  <div id="objetivos">
+    <div class="fade-up" style="max-width:600px">
+      <span class="label">Meus objetivos</span>
+      <h2 class="h2">Meta: primeira oportunidade</h2>
+      <p class="sub">Um roadmap claro, com datas reais, unindo formação técnica, graduação e experiência prática.</p>
+    </div>
+
+    <div class="roadmap fade-up">
+      <div class="rm-item active">
+        <div class="rm-num-wrap"><div class="rm-num">01</div></div>
+        <div class="rm-body">
+          <h3>Concluir o Técnico em Informática</h3>
+          <p>Finalizar o curso Técnico em Informática Integrado ao Ensino Médio no Senac/SP — Aclimação.</p>
+          <span class="rm-date">Até Dez 2026</span>
+        </div>
+      </div>
+      <div class="rm-item">
+        <div class="rm-num-wrap"><div class="rm-num">02</div></div>
+        <div class="rm-body">
+          <h3>Conquistar minha primeira oportunidade</h3>
+          <p>Buscar uma vaga de estágio ou posição júnior em desenvolvimento de software, front-end, back-end ou full stack.</p>
+          <span class="rm-date">2026 – 2027</span>
+        </div>
+      </div>
+      <div class="rm-item">
+        <div class="rm-num-wrap"><div class="rm-num">03</div></div>
+        <div class="rm-body">
+          <h3>Iniciar Engenharia de Software</h3>
+          <p>Começar a graduação na FIAP, dando continuidade à formação em desenvolvimento e tecnologia.</p>
+          <span class="rm-date">Jan 2027</span>
+        </div>
+      </div>
+      <div class="rm-item">
+        <div class="rm-num-wrap"><div class="rm-num">04</div></div>
+        <div class="rm-body">
+          <h3>Aprofundar em back-end e dados</h3>
+          <p>Evoluir em Node.js, APIs e bancos de dados através de projetos reais e novos desafios.</p>
+          <span class="rm-date">Contínuo</span>
+        </div>
+      </div>
+      <div class="rm-item">
+        <div class="rm-num-wrap"><div class="rm-num">05</div></div>
+        <div class="rm-body">
+          <h3>Crescer junto de uma equipe</h3>
+          <p>Aplicar meus conhecimentos, aprender continuamente e evoluir profissionalmente junto à empresa.</p>
+          <span class="rm-date">A partir de 2027</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="progress-ring-wrap fade-up" id="ringWrap">
+      <svg class="ring-svg" width="100" height="100" viewBox="0 0 100 100">
+        <defs>
+          <linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#f97316"/>
+            <stop offset="100%" stop-color="#0ea5e9"/>
+          </linearGradient>
+        </defs>
+        <circle class="ring-track" cx="50" cy="50" r="40"/>
+        <circle class="ring-prog" id="ringCircle" cx="50" cy="50" r="40"/>
+
+      </svg>
+      <div class="ring-desc">
+        <h4>Progresso do Técnico</h4>
+        <p>O passo 1 está quase concluído — a formação técnica no Senac termina em dezembro de 2026, abrindo caminho direto para a FIAP e para o mercado de trabalho.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- PROJETOS -->
+<section id="projetos">
+  <div class="projetos-inner">
+    <div class="fade-up">
+      <span class="label">Projetos</span>
+      <h2 class="h2">O que já construí</h2>
+      <p class="sub">Projetos em equipe e individuais que juntam tecnologia, propósito e aprendizado prático. Cada card tem link para o repositório no GitHub e, quando disponível, para a versão publicada.</p>
+    </div>
+
+    <div class="projetos-grid fade-up">
+      <div class="pcard">
+        <div class="pcard-top">
+          <div class="pcard-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="4.8" r="2.1"/><path d="M3.5 9.2c2.8.9 5.6 1.3 8.5 1.3s5.7-.4 8.5-1.3M12 10.5v5.3m0 0l-3.2 5.2m3.2-5.2l3.2 5.2"/></svg></div>
+        </div>
+        <h3>Tech for All (TFA)</h3>
+        <p>Projeto em equipe desenvolvido no Senac São Paulo a partir de agosto de 2025, hoje concluído e em acompanhamento periódico. Resultou em cinco extensões de acessibilidade para o Google Chrome — controle por voz, rastreamento ocular, filtro de cores, lupa digital e foco cognitivo — e no site do projeto. Minha atuação: levantamento das necessidades dos usuários, planejamento, desenvolvimento e correção de bugs. Apresentado na feira do Senac Aclimação (nov/2025), recebeu os reconhecimentos de Destaque do Dia, Impacto Social e Originalidade e Inovação. Aquisição formalmente acordada pelo Senac São Paulo, com contrato em formalização e previsão de uso institucional a partir de dezembro de 2026.</p>
+        <div class="pcard-tags">
+          <span class="ptag">JavaScript</span>
+          <span class="ptag">Extensão Chrome</span>
+          <span class="ptag">Acessibilidade</span>
+          <span class="ptag">Projeto em equipe</span>
+        </div>
+        <a href="https://github.com/CaioEscatolin/TFA-site" target="_blank" class="pcard-link">Repositório no GitHub <span class="arrow">→</span></a>
+      </div>
+
+      <div class="pcard">
+        <div class="pcard-top">
+          <div class="pcard-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M3.5 12h17M12 3.5c2.5 2.3 3.8 5.2 3.8 8.5s-1.3 6.2-3.8 8.5c-2.5-2.3-3.8-5.2-3.8-8.5s1.3-6.2 3.8-8.5z"/></svg></div>
+        </div>
+        <h3>Portfólio Pessoal</h3>
+        <p>Site pessoal desenvolvido do zero para apresentar minha trajetória, projetos e conhecimentos em Tecnologia da Informação. Projeto individual, feito com HTML, CSS e JavaScript, com apoio do Claude Code durante o desenvolvimento — este próprio site que você está vendo agora.</p>
+        <div class="pcard-tags">
+          <span class="ptag">HTML</span>
+          <span class="ptag">CSS</span>
+          <span class="ptag">JavaScript</span>
+        </div>
+        <a href="https://github.com/CaioEscatolin/Portif-lio-Dev" target="_blank" class="pcard-link">Repositório no GitHub <span class="arrow">→</span></a>
+      </div>
+
+      <div class="pcard">
+        <div class="pcard-top">
+          <div class="pcard-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="5.5" width="16" height="14.5" rx="2"/><path d="M4 10h16M8.5 3.5v4M15.5 3.5v4M9.2 14.6l2 2 3.6-3.8"/></svg></div>
+        </div>
+        <h3>Rotina Certa</h3>
+        <p>Web app criado para auxiliar na organização da rotina de crianças com autismo. Permite que professores ou responsáveis construam uma rotina diária estruturada, apresentando as atividades de forma organizada e acessível ao longo do dia. Projeto individual, com HTML, CSS, JavaScript e Firebase.</p>
+        <div class="pcard-tags">
+          <span class="ptag">JavaScript</span>
+          <span class="ptag">Firebase</span>
+          <span class="ptag">Acessibilidade</span>
+          <span class="ptag">Web App</span>
+        </div>
+        <a href="https://caioescatolin.github.io/Rotina-certa-app/" target="_blank" class="pcard-link">Acessar o app <span class="arrow">→</span></a>
+        <a href="https://github.com/CaioEscatolin/Rotina-certa-app" target="_blank" class="pcard-link">Repositório no GitHub <span class="arrow">→</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- COMPETÊNCIAS -->
+<section id="competencias">
+  <div class="competencias-inner">
+    <div class="fade-up">
+      <span class="label">Competências</span>
+      <h2 class="h2">O que sei usar na prática</h2>
+      <p class="sub">Conhecimentos técnicos aplicados nos meus projetos, além das habilidades que uso no dia a dia para aprender e trabalhar em equipe.</p>
+    </div>
+
+    <div class="comp-grid fade-up">
+      <div class="hcard">
+        <span class="hcard-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8.5 7L4 12l4.5 5M15.5 7L20 12l-4.5 5M13.2 5l-2.4 14"/></svg></span>
+        <h3>JavaScript</h3>
+        <p>Base sólida em lógica de programação, DOM e construção de interfaces e funcionalidades dinâmicas.</p>
+      </div>
+      <div class="hcard">
+        <span class="hcard-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="4.5" width="16" height="6.2" rx="1.6"/><rect x="4" y="13.3" width="16" height="6.2" rx="1.6"/><path d="M7.4 7.6h.01M7.4 16.4h.01"/></svg></span>
+        <h3>Node.js & APIs</h3>
+        <p>Desenvolvimento de back-ends simples e integração com APIs para conectar dados e funcionalidades.</p>
+      </div>
+      <div class="hcard">
+        <span class="hcard-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><ellipse cx="12" cy="5.8" rx="7.2" ry="2.7"/><path d="M4.8 5.8v12.4c0 1.5 3.2 2.7 7.2 2.7s7.2-1.2 7.2-2.7V5.8M4.8 12c0 1.5 3.2 2.7 7.2 2.7s7.2-1.2 7.2-2.7"/></svg></span>
+        <h3>Banco de Dados</h3>
+        <p>Modelagem e manipulação de dados para dar suporte às aplicações que desenvolvo.</p>
+      </div>
+      <div class="hcard">
+        <span class="hcard-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="6.5" cy="6" r="2.2"/><circle cx="6.5" cy="18" r="2.2"/><circle cx="17.5" cy="8" r="2.2"/><path d="M6.5 8.2v7.6M17.5 10.2c0 4.3-5.5 4.3-8.2 4.6"/></svg></span>
+        <h3>Git & GitHub</h3>
+        <p>Versionamento de código e organização de projetos, essenciais em qualquer trabalho em equipe.</p>
+      </div>
+      <div class="hcard">
+        <span class="hcard-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4.5l1.5 4.1 4.1 1.5-4.1 1.5L12 15.7l-1.5-4.1-4.1-1.5 4.1-1.5z"/><path d="M18.3 15.8l.8 2 2 .8-2 .8-.8 2-.8-2-2-.8 2-.8z"/></svg></span>
+        <h3>Inteligência Artificial</h3>
+        <p>Aplicação de IA em soluções de acessibilidade e como apoio no desenvolvimento dos meus projetos, unindo tecnologia e propósito real.</p>
+      </div>
+      <div class="hcard">
+        <span class="hcard-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="5.8"/><path d="M14.9 14.9L20 20"/></svg></span>
+        <h3>Pesquisa & Problem Solving</h3>
+        <p>Capacidade de identificar problemas reais e transformar necessidades dos usuários em soluções.</p>
+      </div>
+    </div>
+
+    <div class="comp-soft fade-up">
+      <span class="chip">Comunicação</span>
+      <span class="chip">Trabalho em equipe</span>
+      <span class="chip">Resolução de problemas</span>
+      <span class="chip">Aprendizado rápido</span>
+      <span class="chip">Pensamento crítico</span>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<div class="divider"></div>
+
+<!-- FORMAÇÃO -->
+<section id="formacao">
+  <div class="fe-inner">
+    <div class="fade-up">
+      <span class="label">Formação</span>
+      <h2 class="h2">Técnico, feira e faculdade</h2>
+      <p class="sub">Minha trajetória acadêmica até aqui — e os próximos passos que já estão definidos.</p>
+    </div>
+
+    <div class="fe-grid">
+      <div class="fade-up">
+        <p style="color:var(--muted);font-size:0.98rem;line-height:1.9;margin-bottom:1.5rem">
+          Curso o Técnico em Informática Integrado ao Ensino Médio no <strong style="color:var(--text)">Senac São Paulo — Aclimação</strong>,
+          com conclusão prevista para dezembro de 2026. Durante a formação, participei do
+          desenvolvimento do Tech for All, apresentado em uma feira do Senac.
+        </p>
+        <p style="color:var(--muted);font-size:0.98rem;line-height:1.9;margin-bottom:2rem">
+          Logo na sequência, em janeiro de 2027, inicio a graduação em
+          <strong style="color:var(--text)">Engenharia de Software na FIAP</strong>, dando continuidade
+          à minha formação na área de desenvolvimento e tecnologia.
+        </p>
+
+        <div class="fe-timeline">
+          <div class="fe-event">
+            <div class="fe-dot"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4.2l9.2 3.9-9.2 3.9-9.2-3.9z"/><path d="M6.6 10.4v4.4c0 1.6 2.4 2.9 5.4 2.9s5.4-1.3 5.4-2.9v-4.4M21.2 8.1v5.2"/></svg></div>
+            <div class="fe-event-body">
+              <strong>Técnico em Informática — Senac/SP</strong>
+              <span>Integrado ao Ensino Médio, Aclimação</span>
+            </div>
+          </div>
+          <div class="fe-event">
+            <div class="fe-dot"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 4.5h8V9a4 4 0 0 1-8 0z"/><path d="M8 5.5H5.6a2.6 2.6 0 0 0 2.7 4.4M16 5.5h2.4a2.6 2.6 0 0 1-2.7 4.4M12 13v3.3M9 20h6M10 16.3h4"/></svg></div>
+            <div class="fe-event-body">
+              <strong>Tech for All na feira do Senac</strong>
+              <span>Destaque do Dia · Impacto Social · Originalidade e Inovação</span>
+            </div>
+          </div>
+          <div class="fe-event">
+            <div class="fe-dot"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4.5" y="4.5" width="15" height="15" rx="2"/><path d="M8.2 9.2h7.6M8.2 12.4h7.6M8.2 15.6h4.6"/></svg></div>
+            <div class="fe-event-body">
+              <strong>Formação complementar em desenvolvimento web e IA</strong>
+              <span>Curso A Forja do Futuro — Hotmart (ago/2026)</span>
+            </div>
+          </div>
+          <div class="fe-event">
+            <div class="fe-dot"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3.8l2.4 5.1 5.6.7-4.1 3.8 1 5.5-4.9-2.7-4.9 2.7 1-5.5-4.1-3.8 5.6-.7z"/></svg></div>
+            <div class="fe-event-body">
+              <strong>Início da Engenharia de Software — FIAP</strong>
+              <span>Janeiro de 2027</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="fade-up">
+        <p class="fe-aspira-title">Próximos passos</p>
+        <div class="aspira-item">Conquistar minha primeira oportunidade como estagiário ou dev júnior</div>
+        <div class="aspira-item">Concluir o técnico em Informática no Senac com excelência</div>
+        <div class="aspira-item">Iniciar a graduação em Engenharia de Software na FIAP</div>
+        <div class="aspira-item">Aprofundar conhecimentos em back-end, APIs e bancos de dados</div>
+        <div class="aspira-item">Continuar aplicando tecnologia a projetos com impacto social</div>
+
+        <div class="cert-card">
+          <div class="cert-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4.5" y="4.5" width="15" height="15" rx="2"/><path d="M8.2 9.2h7.6M8.2 12.4h7.6M8.2 15.6h4.6"/></svg></div>
+          <div>
+            <strong>A Forja do Futuro — Filipe Mello de Souza</strong>
+            <p>Hotmart · Concluído em agosto de 2026. Lógica de programação, HTML, CSS, JavaScript, Node.js, bancos de dados, APIs e integração com IA.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- CONTATO -->
+<section id="contato">
+  <div>
+    <div class="contato-wrap fade-up">
+      <div class="contato-left">
+        <span class="label">Contato</span>
+        <h2>Vamos <span>conversar</span>?</h2>
+        <p>Estou em busca da minha primeira oportunidade profissional na área de tecnologia — estágio ou posição júnior em desenvolvimento de software, front-end, back-end ou full stack. Aberto a trabalhar em qualquer local dentro do estado de São Paulo.</p>
+      </div>
+      <div class="contato-cards">
+        <a href="tel:+5511975642714" class="ctcard">
+          <div class="ct-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
+          <div>
+            <div class="ct-label">WhatsApp</div>
+            <div class="ct-value">+55 11 97564-2714</div>
+          </div>
+          <span class="ct-arrow">→</span>
+        </a>
+        <a href="https://github.com/CaioEscatolin" target="_blank" class="ctcard">
+          <div class="ct-icon"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.56v-2.17c-3.2.7-3.87-1.37-3.87-1.37-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.03 1.75 2.69 1.25 3.34.95.1-.74.4-1.25.72-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.42-2.7 5.39-5.26 5.68.41.35.77 1.05.77 2.12v3.14c0 .31.21.68.8.56A10.52 10.52 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg></div>
+          <div>
+            <div class="ct-label">GitHub</div>
+            <div class="ct-value">@CaioEscatolin</div>
+          </div>
+          <span class="ct-arrow">→</span>
+        </a>
+        <a href="https://www.linkedin.com/in/caio-escatolin-software-developer" target="_blank" class="ctcard">
+          <div class="ct-icon"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.55V9h3.57v11.45z"/></svg></div>
+          <div>
+            <div class="ct-label">LinkedIn</div>
+            <div class="ct-value">Caio Melo Escatolin</div>
+          </div>
+          <span class="ct-arrow">→</span>
+        </a>
+        <a href="mailto:cmescatolin@gmail.com" class="ctcard">
+          <div class="ct-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="5.5" width="17" height="13.5" rx="2"/><path d="M4 7.5l8 5.8 8-5.8"/></svg></div>
+          <div>
+            <div class="ct-label">E-mail</div>
+            <div class="ct-value">cmescatolin@gmail.com</div>
+          </div>
+          <span class="ct-arrow">→</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">Caio<span>.</span>Melo<span>.</span>Escatolin</div>
+  <div class="footer-copy">© 2026 — Feito com código, café e muita dedicação.</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
